@@ -18,19 +18,29 @@ function NavBar() {
       >
         <ul className='flex flex-col md:flex-row gap-4 text-secondary md:text-gray-600 font-bold'>
           <li>
-            <a href='#'>Home</a>
+            <a href='#' className=' hover:text-primary-light'>
+              Home
+            </a>
           </li>
           <li>
-            <a href='#'>New</a>
+            <a href='#' className=' hover:text-primary-light'>
+              New
+            </a>
           </li>
           <li>
-            <a href='#'>Popular</a>
+            <a href='#' className=' hover:text-primary-light'>
+              Popular
+            </a>
           </li>
           <li>
-            <a href='#'>Trending</a>
+            <a href='#' className=' hover:text-primary-light'>
+              Trending
+            </a>
           </li>
           <li>
-            <a href='#'>Categories</a>
+            <a href='#' className=' hover:text-primary-light'>
+              Categories
+            </a>
           </li>
         </ul>
       </nav>
