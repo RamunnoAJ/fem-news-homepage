@@ -22,21 +22,20 @@ const news = [
 function News() {
   return (
     <section className='bg-secondary px-6 py-4 md:py-0 flex flex-col gap-8 h-full justify-center'>
-      <h3 className='text-primary-light font-bold text-4xl'>New</h3>
-      <div className='flex flex-col gap-8'>
-        {news.map((notice) => (
-          <article
-            key={notice.id}
-            className='border-gray-700 border-b pb-6 last:border-none'
-          >
-            <New
-              title={notice.title}
-              text={notice.text}
-              className='flex flex-col gap-4'
-            />
-          </article>
-        ))}
-      </div>
+      <h2 className='text-primary-light font-bold text-4xl'>New</h2>
+
+      {news.map((notice) => (
+        <article
+          key={notice.id}
+          className='border-gray-700 border-b pb-6 last:border-none'
+        >
+          <New
+            title={notice.title}
+            text={notice.text}
+            className='flex flex-col gap-4'
+          />
+        </article>
+      ))}
     </section>
   )
 }

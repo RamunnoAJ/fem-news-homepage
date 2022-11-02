@@ -4,10 +4,10 @@ import mainImageMobile from '../assets/image-web-3-mobile.webp'
 
 function Main() {
   return (
-    <div className='flex flex-col gap-6'>
+    <section className='flex flex-col gap-6'>
       <div>
         <picture>
-          <source media='(min-width:80rem)' srcSet={mainImageDesktop} />
+          <source media='(min-width:76.8rem)' srcSet={mainImageDesktop} />
           <img src={mainImageMobile} alt='' />
         </picture>
       </div>
@@ -29,7 +29,7 @@ function Main() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

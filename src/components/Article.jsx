@@ -8,7 +8,9 @@ function Article({ title, text, id, image, alt }) {
         <span className=' text-3xl font-bold tracking-wide text-gray-400'>
           {`0${id}`}
         </span>
-        <h3 className='text-secondary font-extrabold text-lg'>{title}</h3>
+        <h3 className='text-secondary hover:text-primary-dark cursor-pointer font-extrabold text-lg'>
+          {title}
+        </h3>
         <p className='text-slate-800 opacity-80'>{text}</p>
       </div>
     </div>
