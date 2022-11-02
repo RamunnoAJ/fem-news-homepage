@@ -21,7 +21,7 @@ const news = [
 
 function News() {
   return (
-    <section className='bg-secondary px-6 flex flex-col gap-8 h-full justify-center'>
+    <section className='bg-secondary px-6 py-4 md:py-0 flex flex-col gap-8 h-full justify-center'>
       <h3 className='text-primary-light font-bold text-4xl'>New</h3>
       <div className='flex flex-col gap-8'>
         {news.map((notice) => (
