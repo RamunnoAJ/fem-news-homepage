@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import Main from '../components/Main'
 import News from '../components/News'
+import Articles from '../components/Articles'
 
 function Home() {
   return (
@@ -14,6 +15,9 @@ function Home() {
           </div>
           <div className='bg-secondary'>
             <News />
+          </div>
+          <div className=' col-span-3 mb-6'>
+            <Articles />
           </div>
         </div>
       </main>
