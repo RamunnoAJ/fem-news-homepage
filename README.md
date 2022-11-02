@@ -48,6 +48,6 @@ Users should be able to:
 
 ## Screenshot
 
-![Desktop view](./public/images/desktop-view.webp)
+![Desktop view](./public/images/desktop-view.png)
 
-![Mobile view 1](./public/images/mobile-view-1.webp) ![Mobile view 2](./public/images/mobile-view-2.webp)
+![Mobile view 1](./public/images/mobile-view-1.png) ![Mobile view 2](./public/images/mobile-view-2.png)
