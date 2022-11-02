@@ -4,7 +4,7 @@ import mainImageMobile from '../assets/image-web-3-mobile.webp'
 
 function Main() {
   return (
-    <div className='flex flex-col gap-6 col-span-2'>
+    <div className='flex flex-col gap-6'>
       <div>
         <picture>
           <source media='(min-width:80rem)' srcSet={mainImageDesktop} />
@@ -16,7 +16,7 @@ function Main() {
           The Bright Future of Web 3.0?
         </h1>
         <div className='flex flex-col gap-6 basis-1/2'>
-          <p className='text-slate-800 opacity-80 leading-relaxed'>
+          <p className='text-slate-800 opacity-80 leading-relaxed -z-10'>
             We dive into the next evolution of the web that claims to put the
             power of the platforms back into the hands of the people. But is it
             really fulfilling its promise?
